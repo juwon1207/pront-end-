@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 만들기 게임</title>
+    <link rel="stylesheet" href="num.css">
+</head>
+<body>
+    <div id="number_game_position">
+        <h2>숫자 맞추기 게임</h2>
+        <p class="text_font">이 게임은 1부터 100까지의 숫자를 맞추는 게임입니다.</p>
+        <form>4S
+            <p class="text_font">숫자 : <input type="text" id="user" size="5"> <input type="button" id="button" value="확인"onclick="guess()"></p> 
+            <p class="text_font">추측횟수 : <input type="text" id="guesses" size="25"></p>
+            <p class="text_font">힌트 : <input type="text" id="result" size="15"></p>
+            <p class="text_font"><input type="button" id="resetbtn" value="다시!"></p>
+        </form>
+        <div id="area"></div>
+    </div>
+    <script src="num.js"></script>
+</body>
+</html>
